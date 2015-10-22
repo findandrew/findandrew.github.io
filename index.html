@@ -1,1 +1,89 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css"> <!-- Collapse this file into sass and bootstrap.css when done  -->
+
+    <!-- MIGHT NEED TO INCLUDE THESE LOCALLY FOR WRAPBOOTSTRAP MARKETPLACE -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <header>
+    <div class="background-image"></div>
+      <!-- TO BE AN OPTION IN CASE OF GENERIC BG IMG
+      <div class="col-xs-12"><img class="img-circle center-block" alt="Profile Image" src="img/profile.jpeg" /></div>
+      -->
+      <div id="headings-container" class="text-center">
+        <h1 class="col-xs-12">ANDREW MILLER</h1>
+        <h4 class="col-xs-12">FULL STACK WEB DEVELOPER</h4>
+        <button class="btn">
+          VIEW WORK
+          <span class="col-xs-12 glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="work">
+
+      <section>
+
+        <div class="header">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 title-description">
+                <h1>Compost App</h1>
+                <p class="description">A data collection app for community composting organizations</p>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <p class="my-label">Role:</p>
+                <h4 class="role-heading">Lead Developer, Lead Designer</h4>
+                <p class="my-label">Tools used:</p>
+                <h4>Ruby on Rails 4, PostgreSQL, JavaScript, Bootstrap 3, Heroku, Git</h4>
+                <p>Source code available on <a href="">GitHub</a>, staging app available on <a href="">Heroku</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui container">
+
+          <div class="row">
+            <div class="col-xs-12 desktop">
+              <img src="img/compostapp-ui-mobile-trio.png" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-8 desktop">
+              <h5 class="text-right">Desktop</h5>
+              <img src="img/compostapp-ui-desktop.gif" />
+            </div>
+            <div class="col-xs-4 mobile">
+              <h5 class="text-right">Mobile</h5>
+              <img src="img/compostapp-ui-mobile.gif" />
+            </div>
+          </div>
+
+      </section>
+
+    </main>
+
+    <!-- Javascripts -->
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+</html>
