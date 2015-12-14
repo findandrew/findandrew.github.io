@@ -93,7 +93,7 @@ main.work section .ui.container .row {
 }
 @media (min-width: 768px) {
   main.work section .ui.container .row {
-    margin-bottom: 50px;
+    margin-bottom: 28px;
   }
 }
 main.work section .ui .desktop h5, main.work section .ui .mobile h5 {
